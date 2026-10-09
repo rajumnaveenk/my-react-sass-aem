@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/my-react-sass-aem" mode="merge"/>
+    <filter root="/content/my-react-sass-aem" mode="merge"/>
+    <filter root="/content/dam/my-react-sass-aem" mode="merge">
+        <exclude pattern="/content/dam/my-react-sass-aem(/.*)?"/>
+        <include pattern="/content/dam/my-react-sass-aem/jcr:content(/.*)?"/>
+    </filter>
+    <filter root="/content/dam/my-react-sass-aem/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/my-react-sass-aem" mode="merge"/>
+</workspaceFilter>

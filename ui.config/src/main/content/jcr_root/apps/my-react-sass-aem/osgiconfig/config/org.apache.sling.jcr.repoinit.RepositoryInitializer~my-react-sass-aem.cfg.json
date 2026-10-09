@@ -1,0 +1,7 @@
+{
+    "scripts": [
+        "create path (sling:OrderedFolder) /content/dam/my-react-sass-aem",
+        "create path (nt:unstructured) /content/dam/my-react-sass-aem/jcr:content",
+        "set properties on /content/dam/my-react-sass-aem/jcr:content\n  set cq:conf{String} to /conf/my-react-sass-aem\n  set jcr:title{String} to \"My React Sass AEM Project\"\nend"
+    ]
+}

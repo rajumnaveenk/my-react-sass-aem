@@ -1,0 +1,6 @@
+{
+  "mobile.resourceTypes": [
+    "my-react-sass-aem/components/page"
+  ],
+  "README": "Indicate which page resource types should display the mobile emulators."
+}
