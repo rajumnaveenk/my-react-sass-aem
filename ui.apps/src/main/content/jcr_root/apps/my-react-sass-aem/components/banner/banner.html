@@ -1,0 +1,13 @@
+<section class="cmp-banner" data-sly-test="${properties.title}">
+  <img class="cmp-banner__image" data-sly-test="${properties.imagePath}"
+       src="${properties.imagePath}" alt="${properties.alt}"/>
+  <div class="cmp-banner__content">
+    <h2 class="cmp-banner__title">${properties.title}</h2>
+    <p class="cmp-banner__subtitle" data-sly-test="${properties.subtitle}">${properties.subtitle}</p>
+    <a class="cmp-banner__button" data-sly-test="${properties.linkUrl}"
+       href="${properties.linkUrl @ extension='html'}">${properties.linkText || 'Learn more'}</a>
+  </div>
+</section>
+
+<div class="cq-placeholder" data-emptytext="Banner"
+     data-sly-test="${!properties.title && wcmmode.edit}"></div>
